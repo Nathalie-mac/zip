@@ -1,0 +1,47 @@
+/* Общий фон окна */
+.root {
+    -fx-background-color: #fff0f5; /* Очень светло-розовый (Lavender Blush) */
+}
+
+/* Подписи (Label) */
+.label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #8b004d; /* Тёмно-розовый */
+    -fx-padding: 0 0 5px 0;
+}
+
+/* Поля ввода и вывода */
+.text-area .content {
+    -fx-background-color: white;
+    -fx-border-color: #ffb6c1; /* Светло-розовая рамка */
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+}
+
+.text-area:focused .content {
+    -fx-border-color: #ff69b4; /* Ярко-розовая рамка при фокусе */
+
+}
+
+.text-area {
+    -fx-font-size: 14px;
+}
+
+/* Кнопки */
+.button {
+    -fx-background-color: #ff69b4; /* Hot Pink */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+}
+
+.button:hover {
+    -fx-background-color: #ff1493; /* Deep Pink (при наведении) */
+}
+
+.button:pressed {
+    -fx-background-color: #c71585; /* Medium Violet Red (при нажатии) */
+}
